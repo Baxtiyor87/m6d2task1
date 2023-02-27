@@ -41,7 +41,7 @@ class _HomePageState extends State<HomePage> {
                     onPressed: (){
                       context.setLocale(const Locale('ru','RU'));
                     },
-                    child: const Text("Russian"),
+                    child: const Text("Russian",style: TextStyle(color: Colors.white)),
                   ),
                 ),
                 const SizedBox(width: 5,),
