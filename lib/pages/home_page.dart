@@ -31,7 +31,7 @@ class _HomePageState extends State<HomePage> {
                     onPressed: (){
                       context.setLocale(const Locale('en','US'));
                     },
-                    child: const Text("English"),
+                    child: const Text("English",style: TextStyle(color: Colors.white)),
                   ),
                 ),
                 const SizedBox(width: 5,),
@@ -51,7 +51,7 @@ class _HomePageState extends State<HomePage> {
                     onPressed: (){
                       context.setLocale(const Locale('uz','UZ'));
                     },
-                    child: const Text("Uzbek"),
+                    child: const Text("Uzbek",style: TextStyle(color: Colors.white)),
                   ),
                 ),
                 const SizedBox(width: 5,),
@@ -61,7 +61,7 @@ class _HomePageState extends State<HomePage> {
                     onPressed: (){
                       context.setLocale(const Locale('fr','FRA'));
                     },
-                    child: const Text("French"),
+                    child: const Text("French",style: TextStyle(color: Colors.white)),
                   ),
                 ),
               ],
